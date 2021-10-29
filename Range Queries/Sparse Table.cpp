@@ -12,9 +12,9 @@ typedef tree<int, null_type, less<int>, rb_tree_tag,
         tree_order_statistics_node_update> ordered_set;
 // 1).find_by_order(idx)                        (returns iterator)
 // 2).order_of_key(key)                         (returns number of keys less than a key)
-// 3).upper_bound(key)													(returns iterator)
-// 4).lower_bound(key)         									(returns iterator)
-// 5).erase(key)	                              (erases key if present)
+// 3).upper_bound(key)				(returns iterator)
+// 4).lower_bound(key)         			(returns iterator)
+// 5).erase(key)	                        (erases key if present)
 /*------------------------------------------------------------*/
 void __print(int x) {cerr << x;}
 void __print(long x) {cerr << x;}
